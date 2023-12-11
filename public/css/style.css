@@ -1,0 +1,90 @@
+/* public/css/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light gray background */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    transition: width 0.3s ease; /* Smooth container width transition */
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40; /* Dark gray background */
+    color: #ffffff; /* White text */
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth background and text color transition */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #007bff; /* Primary color */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+nav a:hover {
+    color: #0056b3; /* Slightly darker color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Success color */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.button:hover {
+    background-color: #218838; /* Slightly darker success color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
